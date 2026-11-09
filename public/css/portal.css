@@ -1,0 +1,52 @@
+/* Penyesuaian kecil di atas AdminLTE 3 untuk Portal Akademik */
+
+.brand-link .brand-image {
+    border-radius: .5rem;
+    max-height: 33px;
+    width: auto;
+}
+
+.login-box,
+.register-box {
+    width: 410px;
+    max-width: 92vw;
+}
+
+.login-logo img,
+.register-logo img {
+    height: 44px;
+    margin-right: .4rem;
+    border-radius: .6rem;
+    vertical-align: middle;
+}
+
+.demo-login .btn {
+    text-align: left;
+    padding: .5rem .85rem;
+}
+
+.demo-login small {
+    opacity: .85;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.table .aksi {
+    white-space: nowrap;
+    width: 1%;
+}
+
+.card-footer .pagination {
+    margin-bottom: 0;
+}
+
+.progress-group-label {
+    font-size: .9rem;
+}
+
+.small-box .inner h3 {
+    font-size: 2.1rem;
+}
