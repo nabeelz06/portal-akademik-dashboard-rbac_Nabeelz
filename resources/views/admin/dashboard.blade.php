@@ -71,7 +71,7 @@
             <div class="small-box bg-danger">
                 <div class="inner">
                     <h3>{{ number_format($jumlahTugasAktif, 0, ',', '.') }}</h3>
-                    <p>Tugas Aktif (belum lewat tenggat)</p>
+                    <p title="Tugas yang tenggatnya belum lewat">Tugas Aktif</p>
                 </div>
                 <div class="icon"><i class="fas fa-tasks"></i></div>
                 @can('lihat-tugas')
